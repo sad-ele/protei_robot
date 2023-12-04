@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0a2 (Python 3.10.13 on darwin)" generated="2023-12-04T22:35:42.418393" rpa="false" schemaversion="5">
+<suite id="s1" name="RobotHomework" source="/Users/sadelja/PycharmProjects/RobotHomework">
+<suite id="s1-s1" name="Padawan" source="/Users/sadelja/PycharmProjects/RobotHomework/Padawan.robot">
+<test id="s1-s1-t1" name="Rick_Morty_All_Characters" line="5">
+<kw name="Get All Rm Characters" owner="lib">
+<var>${characters}</var>
+<msg time="2023-12-04T22:35:54.903069" level="INFO">${characters} = 826</msg>
+<status status="PASS" start="2023-12-04T22:35:42.460341" elapsed="12.442857"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${characters}</arg>
+<arg>${826}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2023-12-04T22:35:54.903716" elapsed="0.001229"/>
+</kw>
+<doc>/// Является ли количество всех
+персонажей эквивалентным заявленному в документации ///</doc>
+<status status="PASS" start="2023-12-04T22:35:42.460063" elapsed="12.445198"/>
+</test>
+<status status="PASS" start="2023-12-04T22:35:42.429687" elapsed="12.476447"/>
+</suite>
+<status status="PASS" start="2023-12-04T22:35:42.419290" elapsed="12.487721"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="RobotHomework">RobotHomework</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Padawan">RobotHomework.Padawan</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
